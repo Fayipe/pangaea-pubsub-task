@@ -12,6 +12,6 @@ router.post("/publish/:topic_slug", call(PubSub.publish, (req, _res, _next) => [
 
 router.post("/event", call(PubSub.event, (req, _res, _next) => [req.body]));
 
-router.get("/", (rq, rs) => rs.status(200).send("good work 🕺🏼🕺🏼🕺🏼🕺🏼🕺🏼🕺🏼"));
+router.get("/", (rq, rs) => rs.status(200).send("good work 🕺🏼🕺🏼"));
 
 export const PubSubRouter = router;

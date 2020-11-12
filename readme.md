@@ -10,6 +10,11 @@ _ _ _ _
 
 ## Quick Start
 ## vscode://vscode.github-authentication/did-authenticate?windowid=15&code=3326d9de287368f72d73&state=1aadd0e7-b89c-4eff-bac9-bc59930d089c
+
+## Install Redis for saving the topic subscription
+* Open you're browser to https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298
+* https://redis.io/topics/quickstart
+
 Get started developing...
 
 ```shell
@@ -20,7 +25,8 @@ npm install
 npm run watch
 
 ```
-
+or use
+sh ./start-server.sh
 ---
 
 ## Install Dependencies
@@ -51,7 +57,7 @@ npm start
 
 
 ## Try It
-* Open you're browser to [http://localhost:8000](http://localhost:8000)
+* Open you're browser to http://localhost:8000
 * Invoke the `/` endpoint 
   ```shell
   curl http://localhost:8000/
