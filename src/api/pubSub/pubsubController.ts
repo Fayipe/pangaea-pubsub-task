@@ -51,9 +51,6 @@ export class PubSubController extends BaseController {
 * Event to trigger to subscribed users
 */
   public event = async (body: any) => {
-    console.log("topic in Event ->", body.topic);
-    console.log("body in Event ->", body.body);
-
     return this.sendResponse(body);
   }
 }
