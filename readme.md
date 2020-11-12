@@ -4,13 +4,12 @@
 
 ## Features
 * Uses typescript
-* Basic mysql/sequlize model setup
 * Global error handling
 * Request input validation using [Joi](https://github.com/hapijs/joi)
 _ _ _ _
 
 ## Quick Start
-
+## vscode://vscode.github-authentication/did-authenticate?windowid=15&code=3326d9de287368f72d73&state=1aadd0e7-b89c-4eff-bac9-bc59930d089c
 Get started developing...
 
 ```shell
@@ -57,6 +56,3 @@ npm start
   ```shell
   curl http://localhost:8000/
   ```
-
-
-#### Debug with VSCode
